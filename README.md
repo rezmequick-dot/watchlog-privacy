@@ -14,12 +14,13 @@ To show anime information, Watchlog contacts these services over HTTPS:
 
 - **AniList** (anilist.co): your search text, and the identifiers of titles you browse, open or track, so it can return details, artwork and airing times.
 - **Jikan** (jikan.moe): the identifier of a title you open, to look up where it streams.
+- **GitHub** (raw.githubusercontent.com): a request for two fixed files, which hold a public timetable of English dub air dates republished from AnimeSchedule. These requests say nothing about you or your list: the same two files are downloaded in full by every copy of the app, and the matching against your titles happens afterwards on your device. No title identifier is sent.
 
 These services receive ordinary network request data (such as your IP address) as with any web request, and handle it under their own privacy policies. Watchlog sends them no name, email, device identifier or other personal information.
 
 ## Links you open yourself
 
-Some screens offer links out: the streaming services listed for a title, a trailer, and **AnimeSchedule** (animeschedule.net) for English dub release dates. Watchlog does not contact these sites on its own. Tapping one hands the address to your browser, which visits it as it would any page you opened yourself — in the case of the dub schedule, the address carries the title you were looking at, so that the site can search for it. Your visit is then subject to that site's own privacy policy.
+Some screens offer links out: the streaming services listed for a title, a trailer, and **AnimeSchedule** (animeschedule.net) for English dub release dates. Watchlog does not contact the linked site on its own. Tapping one hands the address to your browser, which visits it as it would any page you opened yourself — in the case of the dub schedule, the address carries the title you were looking at, so that the site can search for it. Your visit is then subject to that site's own privacy policy.
 
 ## Notifications
 
